@@ -111,7 +111,7 @@
 					<h2 class="lowercase" data-i18n="title">Das Geschäftsmodell</h2>
 					<p data-i18n="none">Keines!</p>
 					<p data-i18n="pro_bono">Pro bono.</p>
-					<p data-i18n="not_product">Nein, es Sie (oder Ihre Daten) sind nicht das Produkt!</p>
+					<p data-i18n="not_product">Nein, Sie (oder Ihre Daten) sind nicht das Produkt!</p>
 				</section>
 				<section id="cost">
 					<h2 class="lowercase" data-i18n="title">Die Kosten</h2>
@@ -119,7 +119,7 @@
 						<li data-i18n="cost1">100 EUR Server Hosting pro Jahr</li>
 						<li data-i18n="cost2"> 50 EUR Notarielle Hinterlegung<br/>
 						</li>
-						<li data-i18n="cost3">8 Arbeitsstunden (bis jetzt)</li>
+						<li data-i18n="cost3">10 Arbeitsstunden (bis jetzt)</li>
 						<li data-i18n="cost4">(~ XXX EUR E13 TVöD Bund)</li>
 					</ul>
 				</section>
@@ -142,9 +142,9 @@
 					<section id="local_part">
 						<h3 class="lowercase" data-i18n="title">Bildung des local part</h3>
 						<ul>
-							<li data-i18n="localpart1">Aktueller local part + “.” + fortlaufende Nummer</li>
+							<li data-i18n="localpart1">Aktueller local part + "." + fortlaufende Nummer</li>
 							<li data-i18n="localpart2">Wird bei der Registrierung automatisch erzeugt</li>
-							<li data-i18n="localpart3">Beispiel: hendrik.eggers@ → hendrik.eggers.1@</li>
+							<li data-i18n="localpart3">Beispiel: hendrik.eggers@ &rarr; hendrik.eggers.1@</li>
 							<li data-i18n="localpart4">Die E-Mail bleibt lebenslang bestehen.</li>
 						</ul>
 					</section>
@@ -266,25 +266,24 @@
 					switchselector: ".langchooser",
 					html: true,
 					languages: {
-						fr: {
-                    	    name: "Français",
-                        	dictionary: "fr.json"
-                    	},
                     	en: {
                         	name: "English",
                         	dictionary: "en.json"
                     	},
-						ru: {
-                        	name: "Русский",
-                        	dictionary: "ru.json"
-                    	},
+						//ru: {
+                        //	name: "Русский",
+                        //	dictionary: "ru.json"
+                    	//},
+						//fr: {
+                    	//    name: "Français",
+                        //	dictionary: "fr.json"
+                    	//},
 					},
 					debug: false,
-					makejson: true
+					makejson: false
 				},
 				// Learn about plugins: https://revealjs.com/plugins/
-				//plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Internation ]
-				plugins: [ Internation ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Internation ]
 			});
 		</script>
 	</body>

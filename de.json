@@ -1,0 +1,131 @@
+{
+    "slides": {
+        "title": {
+            "title": "Lebenslange E-Mail Adresse für die Forschung",
+            "subtitle": "Idee von Hendrik Eggers"
+        },
+        "challenge": {
+            "title": "Die Herausforderung",
+            "reason1": "Wechsel der E-Mail-Adresse bei Wechsel der Organisation",
+            "reason2": "Publikationen im „dispute“, weil Autor:innen nicht erreichbar",
+            "reason3": "Autor:innen bei älteren Publikationen nicht erreichbar",
+            "reason4": "..."
+        },
+        "solution": {
+            "title": "Die Lösung",
+            "sample_email": "vorname.nachname.1@scienceautors.email"
+        },
+        "solution_details": {
+            "title": "Die Lösung im Detail",
+            "detail1": "REINE Weiterleitung",
+            "detail2": "Bereitstellung nur auf Antrag",
+            "detail3": "Einmal pro Jahr „keep alive“ check",
+            "detail4": "„pro bono“ Projekt\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t<li data-i18n=\"detail41\">Für zwei (2) Jahre kostenlos</li>\t\t\t\t\t\t\t\t<li data-i18n=\"detail42\">... danach Finanzierung über Spenden oder Förderung</li>\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t",
+            "detail41": "Für zwei (2) Jahre kostenlos",
+            "detail42": "... danach Finanzierung über Spenden oder Förderung"
+        },
+        "privacy": {
+            "title": "Privacy by design",
+            "data_min": "Datensparsamkeit",
+            "opening_line": "Es werden die folgenden Informationen gespeichert:",
+            "email_address": "E-Mail-Adresse",
+            "faorward_target": "Weiterleitungsziel",
+            "initial_value_otp": "Initialisierungswert OTP"
+        },
+        "business_model": {
+            "title": "Das Geschäftsmodell",
+            "none": "Keines!",
+            "pro_bono": "Pro bono.",
+            "not_product": "Nein, es Sie (oder Ihre Daten) sind nicht das Produkt!"
+        },
+        "cost": {
+            "title": "Die Kosten",
+            "cost1": "100 EUR Server Hosting pro Jahr",
+            "cost2": "50 EUR Notarielle Hinterlegung<br>\t\t\t\t\t\t",
+            "cost3": "8 Arbeitsstunden (bis jetzt)",
+            "cost4": "(~ XXX EUR E13 TVöD Bund)"
+        },
+        "org": {
+            "title": "Die Trägerin / Der Träger",
+            "org1": "[GbR oder eV] mit dem einzigen Ziel der Bereitstellung.",
+            "org2": "KEINE Gewinnerzielungsabsicht.",
+            "org3": "KEINE sonstigen kommerziellen Ziele."
+        },
+        "feedback": {
+            "title": "Ihre Meinung bitte!"
+        },
+        "more": {
+            "title": "Mehr Details"
+        },
+        "local_part": {
+            "title": "Bildung des local part",
+            "localpart1": "Aktueller local part + “.” + fortlaufende Nummer",
+            "localpart2": "Wird bei der Registrierung automatisch erzeugt",
+            "localpart3": "Beispiel: hendrik.eggers@ → hendrik.eggers.1@",
+            "localpart4": "Die E-Mail bleibt lebenslang bestehen."
+        },
+        "security": {
+            "title": "Sicherheit",
+            "security1": "Anlage und Änderung per E-Mail-Challenge gesichert",
+            "security2": "Trade-Off Sicherheit vs. Datenschutz\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"security21\">Mehr Sicherheit z.B. würde mehr zu speichernde Daten erfordern.</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"security22\">Was ist die Wahrscheinlichkeit, dass ein gekapertes E-Mailkonto genutzt wird um das Weiterleitungsziel zu ändern und dann damit Schaden anzurichten?</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"security23\">Bei Nachfrage Änderung möglich.<br>\t\t\t\t\t\t\t\t\t\tMöglicherweise Kostensteigerung als Konsequenz.</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "security21": "Mehr Sicherheit z.B. würde mehr zu speichernde Daten erfordern.",
+            "security22": "Was ist die Wahrscheinlichkeit, dass ein gekapertes E-Mailkonto genutzt wird um das Weiterleitungsziel zu ändern und dann damit Schaden anzurichten?",
+            "security23": "Bei Nachfrage Änderung möglich.<br>\t\t\t\t\t\t\t\t\t\tMöglicherweise Kostensteigerung als Konsequenz."
+        },
+        "business_process": {
+            "title": "Geschäftsprozess",
+            "step1": "Registrierungsseite aufrufen",
+            "step2": "Aktuelle E-Mail-Adresse per Challenge-Response verifizieren.<br>\t\t\t\t\t\t\t\t(Bei Versuch eine Doublette zu registrieren, wird die Änderungsfunktion aufgerufen.)",
+            "step3": "Am Abschluss von Response wird neue E-Mail-Adresse erzeugt.",
+            "step4": "OTP initialisieren",
+            "step5": "Erster OTP Code zum Abschluss und Bestätigung"
+        },
+        "hosting": {
+            "title": "Die Technik",
+            "hosting1": "Server Hosting bei ???\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"hosting11\">RZ in D</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"hosting12\">Zertifizierung nach ISO 270001</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"hosting13\">Öko-Strom</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "hosting11": "RZ in D",
+            "hosting12": "Zertifizierung nach ISO 270001",
+            "hosting13": "Öko-Strom",
+            "hosting2": "Device-Verschlüsselung",
+            "hosting3": "Notarielle Hinterlegung der Schlüssel"
+        },
+        "known_challenges1": {
+            "title": "Bekannte Herausforderungen (1/2)",
+            "kc1": "Organisation (Affiliation) nicht in der Autorenangabe\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc11\">Dafür soll eigentlich die ORCID-ID und das ORCID-Profil dienen.</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc12\">Kein Zwang scienceauthors.email zu nutzen.</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc13\">Attraktivität vor allem für mobile Forschende.</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "kc11": "Dafür soll eigentlich die ORCID-ID und das ORCID-Profil dienen.",
+            "kc12": "Kein Zwang scienceauthors.email zu nutzen.",
+            "kc13": "Attraktivität vor allem für mobile Forschende.",
+            "kc2": "Weiterleitung alter E-Mail-Adressen an @scienceauthors.email in Prüfung = Add-On Service"
+        },
+        "known_challenges2": {
+            "title": "Bekannte Herausforderungen (2/2)",
+            "kc3": "Warum nutzen Autoren nicht einfach Ihre private (oder acm oder ieee) E-Mail-Adresse?\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc31\">Trennung von beruflichem und privatem wünschenswert</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc32\">scienceauthors.email sieht professioneller aus als gmx.de oder gmail.com</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "kc31": "Trennung von beruflichem und privatem wünschenswert",
+            "kc32": "scienceauthors.email sieht professioneller aus als gmx.de oder gmail.com",
+            "kc4": "Authentifizierung über ORCID und Verbindung mit Profil würde Datensparsamkeit wiedersprechen ist aber mittelfristig denkbar",
+            "kc5": "Es muss ein Abuse Geschäftsprozess etabliert werden."
+        },
+        "not_dfn": {
+            "title": "Warum nicht als DFN-Dienst?",
+            "ndfn1": "Internationaler Fokus – NREN vs. internationale Nutzung",
+            "ndfn2": "Realisierungsdauer?"
+        },
+        "dfn_coop": {
+            "title": "Kooperation mit dem DFN",
+            "dfncoop1": "Nutzung DFN-Mailsupport als primary MX = Schutz und Sicherheit",
+            "dfncoop2": "DFN Forschungsstelle Recht zur Absicherung",
+            "dfncoop3": "Werbung!"
+        },
+        "more_reasons": {
+            "title": "Weitere Gründe für<br>scienceauthors.email",
+            "mr1": "Die Diskussion um ablaufende (E-Mail-) Konten wird im Kontext IAM seit 15 Jahren geführt.",
+            "mr2": "Organisationen dürfen auf Grund gesetztlicher Lage (D: TKG, TKÜV, “geschlossene Nutzendengruppe”) Konten nicht lebenslang anbieten."
+        },
+        "attribution": {
+            "title": "Attritbution"
+        }
+    },
+    "menubar": {
+        "chooselanguage": "Choose language"
+    }
+}

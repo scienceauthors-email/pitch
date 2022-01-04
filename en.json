@@ -1,0 +1,118 @@
+{
+    "slides": {
+        "title": {
+            "title": "Life-long e-mail address for academia",
+            "subtitle": "Idea by Hendrik Eggers"
+        },
+        "challenge": {
+            "title": "The Challenge",
+            "reason1": "Change of e-mail address on change of organisation",
+            "reason2": "Publications in \"dispute\", because author(s) not available",
+            "reason3": "Author(s) of older publications not available for communication",
+            "reason4": "..."
+        },
+        "solution": {
+            "title": "The solution",
+            "sample_e-mail": "firstname.lastname.1@scienceautors.e-mail"
+        },
+        "solution_details": {
+            "title": "Details about this solution",
+            "detail1": "PURE forwarding",
+            "detail2": "Provisioning only on request",
+            "detail3": "Once per year \"keep alive\" check",
+            "detail4": "\"pro bono\" project\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t<li data-i18n=\"detail41\">At no charge for two (2) years</li>\t\t\t\t\t\t\t\t<li data-i18n=\"detail42\">... thereafter financing fia donations or public funding</li>\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t"
+        },
+        "privacy": {
+            "title": "Privacy by design",
+            "data_min": "Data minimisation",
+            "opening_line": "The following information will be stored:",
+            "e-mail_address": "e-mail address",
+            "faorward_target": "Forwarding target",
+            "initial_value_otp": "Initialisation value OTP"
+        },
+        "business_model": {
+            "title": "The business model",
+            "none": "None!",
+            "pro_bono": "Pro bono.",
+            "not_product": "No, You (or Your data) are not the product!"
+        },
+        "cost": {
+            "title": "Cost",
+            "cost1": "100 EUR Server hosting per year",
+            "cost2": " 50 EUR notarial escrow<br>\t\t\t\t\t\t",
+            "cost3": "10 hours of work (until now)",
+            "cost4": "(~ XXX EUR German public service salary)"
+        },
+        "org": {
+            "title": "Agency / Bearer",
+            "org1": "[EU legal entity] with the only business goal of providing this solution.",
+            "org2": "NO profit motive.",
+            "org3": "No other commercial interests."
+        },
+        "feedback": {
+            "title": "Your feedback please!"
+        },
+        "more": {
+            "title": "Further details"
+        },
+        "local_part": {
+            "title": "Composition of the local part",
+            "localpart1": "Current local part + \".\" + sequential number",
+            "localpart2": "Automatic creation on registration",
+            "localpart3": "Example: hendrik.eggers@ → hendrik.eggers.1@",
+            "localpart4": "This e-mail persists life-long."
+        },
+        "security": {
+            "title": "Security",
+            "security1": "Creation and change secured by e-mail based challenge and response",
+            "security2": "Trade-Off security vs. data protection\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"security21\">More security would mean more information to store.</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"security22\">What is the probability for a comprimised e-mail account to be used to change the forwarding target and create damage?</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"security23\">On broad demand improvements possible.<br>\t\t\t\t\t\t\t\t\t\tIncrease of cost as possible consequence.</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t"
+        },
+        "business_process": {
+            "title": "Business process",
+            "step1": "Open registration page",
+            "step2": "Verify current e-mail address via challenge-response.<br>\t\t\t\t\t\t\t\t(On trying to register a duplicate address the request will be forwarded to the edit feature.)",
+            "step3": "The e-mail address is created after responding to the challenge.",
+            "step4": "Intialising OTP",
+            "step5": "First OTP to confirm and finish."
+        },
+        "hosting": {
+            "title": "Technology",
+            "hosting1": "Server hosting at ???\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"hosting11\">computing centre in DE</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"hosting12\">ISO 270001 certified</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"hosting13\">Green electricity</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "hosting2": "Device encryption",
+            "hosting3": "Notarial escrow of the encryption keys"
+        },
+        "known_challenges1": {
+            "title": "Known challenges (1/2)",
+            "kc1": "Organisation (Affiliation) not in the authors line\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc11\">Therefore the ORCID-ID and the ORCID-Profil supposed to be used.</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc12\">No obligation to use scienceauthors.e-mail.</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc13\">Mainly attractive for mobile academics.</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "kc2": "Forwarfing for old e-mail Addresses (alumni) via @scienceauthors.e-mail in evaluation = Add-On Service"
+        },
+        "known_challenges2": {
+            "title": "Known challenges (2/2)",
+            "kc3": "Why don't authors not just use their private (or acm or ieee) e-mail Addresses?\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc31\">Speration of work and private desirable</li>\t\t\t\t\t\t\t\t\t<li data-i18n=\"kc32\">scienceauthors.e-mail looks more professional then hotmail.com oder gmail.com</li>\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t",
+            "kc4": "Authentification via ORCID and connection with profile would contradict the target data minimisation but would be available mid-term on broad demand",
+            "kc5": "There is a need to establish an abuse business process."
+        },
+        "not_dfn": {
+            "title": "Why not as DFN service? (German view)",
+            "ndfn1": "International focus – NREN vs. international usage",
+            "ndfn2": "Time to market?"
+        },
+        "dfn_coop": {
+            "title": "Cooperation with DFN",
+            "dfncoop1": "Utilisation of DFN-Mailsupport as primary MX = protection and security",
+            "dfncoop2": "DFN Forschungsstelle Recht for legal advice",
+            "dfncoop3": "Promotion!"
+        },
+        "more_reasons": {
+            "title": "Further Reasons for<br>scienceauthors.e-mail",
+            "mr1": "The discussion about expiring (E-mail) accounts is giong on in the context of IAM for 15 years.",
+            "mr2": "Organisations are not permitted by law (D: TKG, TKÜV, \"closed user group\") to offer life-long accounts."
+        },
+        "attribution": {
+            "title": "Attritbution"
+        }
+    },
+    "menubar": {
+        "chooselanguage": "Choose language"
+    }
+}
